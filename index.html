@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Forside</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
@@ -19,7 +20,7 @@
 
 <h2>Her er en underoverskrift på niveau 2</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+<p class="yellowbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ullamcorper sit amet risus nullam eget felis eget
     nunc lobortis. Ut tristique et egestas quis ipsum suspendisse ultrices.
@@ -34,7 +35,7 @@
     tortor posuere ac ut consequat.
 </p>
 
-<h2>Web formular</h2>
+<h1>Web formular</h1>
 
 <form action="modtagersider/modtager.html">
     <label for="fname">First name:</label>
@@ -64,7 +65,7 @@
     </select>
 
     <h3>Un-ordered list</h3>
-    <ul>
+    <ul id="unorderedlist">
         <li>Volvo</li>
         <li>VW</li>
         <li>Nissan</li>
@@ -84,7 +85,7 @@
 
 <h2>Table example</h2>
 
-<table border="1">
+<table>
     <thead>
     <tr>
         <th>Brand</th>
@@ -100,9 +101,19 @@
         <td>VW</td>
         <td>5 år</td>
     </tr>
+    <tr>
+        <td>Opel</td>
+        <td>3 år</td>
+    </tr>
+    <tr>
+        <td>Skoda</td>
+        <td>5 år</td>
+    </tr>
     </tbody>
 </table>
 
+<p class="yellowbox redtext">Her er en sidste gang tekst. Som også skal have yellowbox klassen koblet på.</p>
+<p class="yellowbox redtext">Her er en aller sidste gang tekst. Som også skal have yellowbox klassen koblet på.</p>
 <hr/>
 
 <footer>

@@ -1,0 +1,71 @@
+/* Jons stylesheet */
+
+/* Headings */
+
+h1 {
+    color: green;
+    font-size: 100px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* Content */
+
+p {
+    font-size: 16px;
+}
+
+.yellowbox {
+    border: 1px solid silver;
+    padding: 10px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    min-height:200px;
+}
+
+.redtext {
+    color: red;
+}
+
+/* Table styling */
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+th {
+    background-color: #00163b; /* rgb(240,240,240);*/
+    color: white;
+}
+
+/* Lists */
+
+#unorderedlist li {
+    list-style: none;
+}
+#unorderedlist li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+
+
