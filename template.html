@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML page template</title>
+    <link rel="stylesheet" href="templatestyle.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <img class="headerimage" src="images/cupcakelogo.png"/>
+    <div class="nav">
+        <ul class="mainmenu">
+            <li>Ordrer</li>
+            <li>Kunder</li>
+        </ul>
+        <ul class="ctamenu">
+            <li>Login</li>
+            <li>Cart</li>
+        </ul>
+    </div>
+</header>
+<div class="content">
+    <h1>Velkommen ombord</h1>
+    <h2>Øens bedste cupcakes. Vælg og bestil her:</h2>
+
+    <form id="orderform" action="addtobasket" method="post">
+
+        <select name="bottom">
+            <option value="">Vælg bund</option>
+            <option value="1">Chocolade</option>
+            <option value="2">Vanilie</option>
+        </select>
+
+        <select name="top">
+            <option value="">Vælg top</option>
+            <option value="1">Chocolade</option>
+            <option value="2">Vanilie</option>
+        </select>
+
+        <select name="quantity">
+            <option value="">Antal</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <button type="submit">Læg i kurv</button>
+    </form>
+</div>
+
+
+</body>
+</html>
